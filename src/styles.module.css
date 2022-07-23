@@ -1,9 +1,155 @@
-/* add css module styles here (optional) */
+.maininputcontainer {
+  position: relative;
+  width: auto;
+  height: 100%;
+  padding: 10px;
+  margin: 0px;
+  background-color: #eee;
+  box-sizing: border-box;
+}
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
+.maininputcontainerinput {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 15px 10px;
+  padding-right: 30px;
+  margin: 0px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  background-color: white;
+  box-sizing: border-box;
+}
+.maininputcontainerinputp {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  width: auto;
+  height: auto;
+  line-height: 0px;
+  font-size: 20px;
+  z-index: 999999;
+  cursor: pointer;
+  box-sizing: border-box;
+
+}
+.maininputcontainerinputdiv {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  left: auto;
+  width: 300px;
+  height: 350px;
+  display: none;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-sizing: border-box;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.maininputcontainerinputdivsearch {
+  position:relative;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  margin: 2px auto; 
+  background-color: white;
+  border-bottom: 1px solid #eee;
+  box-sizing: border-box;
+}
+.maininputcontainerinputdivsearch input{
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #eee;
+  box-sizing: border-box;
+
+}
+.maininputcontainerinputdivitem {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 50px);
+  padding: 10px;
+  padding-bottom: 50px;
+  margin: 5px auto;
+  overflow: hidden;
+  overflow-y: scroll;
+  box-sizing: border-box;
+}
+.maininputcontainerinputdivitem::-webkit-scrollbar {
+  width: 2px;
+  background: #eee;
+  box-sizing: border-box;
+}
+.maininputcontainerinputdivitem::-webkit-scrollbar-thumb {
+  width: 2px;
+  background: #eee;
+  box-sizing: border-box;
+}
+.maininputcontainerinputdivitem span{
+  position: relative;
+  width: auto;
+  height: auto;
+  display: inline-block;
+  padding: 20px 5px;
+  font-size: 20px;
+  line-height: 0px;
+  border-radius: 5px;
   text-align: center;
+  box-sizing: border-box;
+}
+.maininputcontainerinputdivitem span:hover{
+  background-color: #c5eef7;
+  box-sizing: border-box;
+}
+.maininputcontainerinputdivitem p{
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  display: block;
+  font-size: 17px;
+  text-align: center;
+  color:royalblue;
+  box-sizing: border-box;
+}
+.maininputcontainerinputdivpromo {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  height: auto;
+  padding: 10px 5px;
+  background-color: white;
+  z-index: 999;
+  box-sizing: border-box;
+}
+.maininputcontainerinputdivpromo p{
+  position: relative;
+  width: auto;
+  height: auto;
+  font-size: 14px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.maininputcontainerinputdivpromo span{
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 15px;
+  width: auto;
+  height: auto;
+  color: royalblue;
+  box-sizing: border-box;
+}
+.maininputcontainerinputdivpromo span:hover{
+  text-decoration: underline;
+  box-sizing: border-box;
 }

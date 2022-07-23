@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'rotenx-input-text-emojis'
+import { Input } from 'rotenx-input-text-emojis'
 import 'rotenx-input-text-emojis/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <Input onChange={(e) => {console.log(e)}} onEnter={(e) => {console.log(e)}}></Input>
 }
 
 export default App
