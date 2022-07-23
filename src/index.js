@@ -59,7 +59,7 @@ export const Input = ({onChange,onEnter }) => {
         </div>
         <div className={styles.maininputcontainerinputdivpromo} >
           <p>RotenX Git Repo</p>
-          <a href="https://github.com/anshitmishra/rotenx-input-emoji" ><span>Click here</span></a>
+          <a href="https://github.com/anshitmishra/rotenx-input-text-emojis" ><span>Click here</span></a>
         </div>
         <div className={styles.maininputcontainerinputdivitem} >
           {emojiData.filter((unicodeName) => unicodeName.unicodeName.includes(emojiSearch)).slice(0, emojiLimit).map((value, index) => {
