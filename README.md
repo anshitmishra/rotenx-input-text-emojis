@@ -15,12 +15,12 @@ npm install --save rotenx-input-text-emojis
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'rotenx-input-text-emojis'
+import Input from 'rotenx-input-text-emojis'
 import 'rotenx-input-text-emojis/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Input onChange={(e) => {console.log(e)}} onEnter={(e) => {console.log(e)}} />
   }
 }
 ```
